@@ -7,5 +7,5 @@ def run_guessing_name
   elsif response == "exit"
     puts "Goodbye!"
   else
-    puts ""
+    puts "Sorry! The computer guessed #{num}."
 end 
