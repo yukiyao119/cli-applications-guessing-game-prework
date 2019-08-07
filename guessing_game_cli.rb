@@ -1,5 +1,5 @@
 # Code your solution here!
-def Guessing CLI
+def GuessingCLI
   num = rand(1..6)
   response = gets.strip
   if response.to_i == num 
