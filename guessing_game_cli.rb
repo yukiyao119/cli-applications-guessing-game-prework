@@ -8,4 +8,5 @@ def run_guessing_name
     puts "Goodbye!"
   else
     puts "Sorry! The computer guessed #{num}."
+  end
 end 
