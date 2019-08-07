@@ -1,5 +1,6 @@
 # Code your solution here!
 def run_guessing_game
+  puts "What's your guess."
   num = rand(1..6) + 1
   response = gets.strip
   if response.to_i == num 
